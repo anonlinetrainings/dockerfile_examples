@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+ARG NAME=Ram
+RUN echo "Hey there! Welcome to $NAME" > file1.txt
+CMD cat file1.txt

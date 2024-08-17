@@ -1,0 +1,4 @@
+FROM ubuntu:18.04
+RUN apt update -y
+ENV name="www"
+ENTRYPOINT ["/bin/bash", "-c", "echo hello, $name"]

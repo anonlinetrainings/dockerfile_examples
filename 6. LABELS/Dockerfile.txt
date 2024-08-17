@@ -1,0 +1,4 @@
+FROM ubuntu:18.04
+LABEL developer="ravi"
+LABEL project="proj1"
+LABEL billingid="1234"

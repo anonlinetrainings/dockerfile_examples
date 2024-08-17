@@ -1,0 +1,4 @@
+FROM ubuntu:18.04
+RUN apt update -y
+ENV name="Ramu"
+ENTRYPOINT echo "Welcome, $name"

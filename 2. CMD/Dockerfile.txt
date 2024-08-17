@@ -1,0 +1,2 @@
+FROM ubuntu:trusty
+CMD ping -c 4 google.com
